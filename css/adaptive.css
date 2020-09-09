@@ -1,0 +1,293 @@
+@media only screen and (max-width: 1200px) {
+    .services_title {
+        margin: 30px;
+    }
+    .header .call {
+        color: #fff;
+        margin-top: -1px;
+    }
+    .nav_link {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header {
+        position: absolute;
+    }
+    .nav_link {
+        font-size: 12px;
+    }
+    .header a {
+        margin-right: 0;
+    }
+    .intro .intro_inner .intro_title {
+        font-size: 60px;
+    }
+    .intro .intro_inner .intro_subtitle {
+        font-size: 22px;
+    }
+    .header .call {
+        font-size: 12px;
+        margin-top: -1px;
+    }
+    
+    .footer .footer_title {
+        font-size: 12px;
+    }
+    .footer .footer_adress {
+        font-size: 13px;
+    }
+    .footer .footer_call {
+        font-size: 13px;
+    }
+    .about .about_img .ab_img {
+        height: 450px;
+    }
+    .about .about_title {
+        font-size: 25px;
+    }
+    .about .about_descr {
+        font-size: 15px;
+    }
+    .services .services_img .golub {
+        width: 400px;
+        height: 400px;
+    }
+    .services_txt .services_title {
+        font-size: 29px;
+    }
+    .services_txt .services_dexcr {
+        font-size: 16px;
+    }
+    .projects .projects_title {
+        font-size: 27px;
+    }
+    .projects .projects_decr_title {
+        font-size: 20px;
+    }
+    .projects .projects_descr_descr {
+        font-size: 17px;
+    }
+    .catalog {
+        padding: 50px;
+        height: 240px;
+    }
+    .catalog .catalog_title {
+        font-size: 30px;
+    }
+    .catalog .catalog_descr {
+        margin-top: 60px;
+        font-size: 19px;
+    }
+
+    .about #btn span {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 161%;
+    }
+    body .intro {
+        height: 163vh;
+    }
+    .about .about_wrapper {
+        display: block;
+
+    }
+    .about .about_img img {
+
+        margin: 0 auto;
+    }
+    .about #btn span {
+        font-size: 26px;
+    }
+    .about .about_text {
+        margin-left: 72px;
+    }
+    .about .about_descr {
+        font-size: 34px;
+    }
+    .about .about_title {
+        font-size: 42px;
+    }
+    .about #btn {
+        margin-left: 92px;
+    }
+    .nav_link {
+        font-size: 11px;
+    }
+    .services .services_wrapper {
+        display: block;
+    }
+    .services .services_title {
+        text-align: center;
+        font-size: 47px;
+    }
+    .services .services_dexcr {
+        margin-left: 12px;
+    }
+    .services .services_img {
+        padding-left: 174px;
+    }
+    .services .services_dexcr li {
+        font-size: 35px;
+    }
+    .projects .projects_wrapper .projects_main {
+        display: block;
+    }
+    .projects .projects_wrapper .projects_title {
+        font-size: 45px;
+    }
+    .projects .projects_decr_title {
+        font-size: 32px;
+    }
+    .projects .projects_descr_descr {
+        font-size: 37px;
+        padding-left: 30px;
+    }
+    .projects_descr_descr li{
+        margin-left: 25px;
+    }
+    .catalog .catalog_title {
+        font-size: 47px;
+    }
+    .catalog .catalog_descr {
+        font-size: 34px;
+    }
+    .footer {
+        height: 700px;
+    }
+    .footer .footer_wrapper {
+        display: block;
+        
+    }
+    .footer .footer_adress {
+        font-size: 29px;
+        text-align: center;
+    }
+    .footer .footer_title {
+        font-size: 23px;
+    }
+    .footer .footer_subtitle {
+        font-size: 14.5px;
+    }
+    .footer .footer_call {
+        font-size: 31px;
+        text-align: center;
+    }
+    .footer .footer_map {
+        margin: 40px auto 0;
+        width: 375px;
+        height: 246px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        width: 182%;
+
+    }
+    body .intro {
+        height: 181vh;
+    }
+
+    .intro .intro_inner {
+        width: 100%;
+        min-width: 584px;
+        margin: 0 auto;
+    }
+    .about .about_title {
+        font-size: 32px;
+    }
+    .about .about_descr {
+        font-size: 28px;
+    }
+    .about #btn {
+        margin-left: 17px;
+        font-size: 20px;
+    }
+    .services .services_title {
+        font-size: 38px;
+    }
+    .services .services_dexcr li {
+        font-size: 26px;
+        margin-left: -11px;
+    }
+    .services .services_img {
+        padding-left: 94px;
+    }
+    .projects .projects_wrapper .projects_title {
+        font-size: 37px;
+    }
+    .projects .projects_descr_descr {
+        font-size: 31px;
+        padding-left: 0px;
+    }
+    .catalog .catalog_title {
+        font-size: 40px;
+    }
+    .catalog .catalog_descr {
+        font-size: 29px;
+    }
+    .footer .footer_adress {
+        font-size: 23px;
+        text-align: center;
+    }
+    .footer .footer_call {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .header .header_inner{
+        display: flex;
+        justify-content: start;
+    }
+    .footer .footer_title {
+        margin-top: 7px;
+    }
+    .footer {
+        height: 620px;
+    }
+    .header .header_inner .nav_link{
+        display: none;
+    }
+    .header .header_inner .call {
+        display: none;
+    }
+    .header .header_inner{
+        height: 37px;
+    }
+    .header .header_inner .hamburger .ham_link {
+        display: block;
+    }
+    .header .header_inner .hamburger {
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 476px) {
+    .header .header_inner .call {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        width: 182%;
+    }
+    .intro .intro_inner {
+        width: 100%;
+        min-width: 511px;
+        margin: 0 auto;
+    }
+    .about #btn {
+        margin-left: -36px;
+        font-size: 20px;
+    }
+}
